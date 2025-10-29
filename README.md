@@ -36,7 +36,5 @@ Upload the dataset files (e.g., `KDDTrain+.txt`, `KDDTest+.txt`, `Train_Test_Net
 ### 2. Open the Colab Notebooks
 Choose the notebook corresponding to your dataset
 ### 3. Update Dataset Paths
-In the first few cells of the notebook, update the dataset path:
-```python
-data_path = "/content/drive/MyDrive/NSL_KDD/KDDTrain+.txt"  # Example for NSL-KDD
+In the first few cells of the notebook, update the dataset path.
 
