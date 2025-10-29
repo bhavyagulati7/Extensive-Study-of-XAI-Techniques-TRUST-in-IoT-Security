@@ -20,3 +20,26 @@ Our experiments reveal that no single explainer dominates across all conditions:
 - **TRUST XAI** combines probabilistic interpretability with low runtime overhead, making it particularly well-suited for large-scale, high-dimensional IoT scenarios.  
 
 Finally, we distill these findings into **practical guidelines** for selecting the most suitable XAI approach based on performance needs, dataset complexity, and runtime constraints. This study aims to advance both the **transparency** and **trustworthiness** of AI-driven IoT security solutions.
+
+
+
+
+## Setup and Execution
+
+### 1. Upload the Datasets
+You can download the datasets from:
+- **NSL-KDD:** [https://ieee-dataport.org/documents/nsl-kdd](https://ieee-dataport.org/documents/nsl-kdd)
+- **TON-IoT:** [https://research.unsw.edu.au/projects/toniot-datasets](https://research.unsw.edu.au/projects/toniot-datasets)
+
+Upload the dataset files (e.g., `KDDTrain+.txt`, `KDDTest+.txt`, `Train_Test_Network.csv`, etc.) to your Google Drive or the Colab environment.
+
+### 2. Open the Colab Notebooks
+Choose the notebook corresponding to your dataset:
+- **NSL-KDD:** [Colab Link](https://colab.research.google.com/drive/1tGZUnGsRXXLCajP8b-hhbwvbsm3g3wsY?usp=sharing)
+- **TON-IoT:** [Colab Link](https://colab.research.google.com/drive/1pdRQ_1efzrebHvulNiOyIcTsLICUex7t?usp=sharing)
+
+### 3. Update Dataset Paths
+In the first few cells of the notebook, update the dataset path:
+```python
+data_path = "/content/drive/MyDrive/NSL_KDD/KDDTrain+.txt"  # Example for NSL-KDD
+
