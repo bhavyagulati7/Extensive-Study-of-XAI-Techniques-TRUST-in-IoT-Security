@@ -34,10 +34,7 @@ You can download the datasets from:
 Upload the dataset files (e.g., `KDDTrain+.txt`, `KDDTest+.txt`, `Train_Test_Network.csv`, etc.) to your Google Drive or the Colab environment.
 
 ### 2. Open the Colab Notebooks
-Choose the notebook corresponding to your dataset:
-- **NSL-KDD:** [Colab Link](https://colab.research.google.com/drive/1tGZUnGsRXXLCajP8b-hhbwvbsm3g3wsY?usp=sharing)
-- **TON-IoT:** [Colab Link](https://colab.research.google.com/drive/1pdRQ_1efzrebHvulNiOyIcTsLICUex7t?usp=sharing)
-
+Choose the notebook corresponding to your dataset
 ### 3. Update Dataset Paths
 In the first few cells of the notebook, update the dataset path:
 ```python
